@@ -1,20 +1,20 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002022, month=000000000012, day=000000000007, hour=000000000017, min=000000000010, sec=000000000000)
+    time(year=000000002022, month=000000000012, day=000000000007, hour=000000000017, min=000000000010, sec=000000000001)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000000702, lin=000000000017, lvl=000000000000)
+    $index$(pos=000000000705, lin=000000000017, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
 $begin 'SolutionBlock1'
 	ProductName='Maxwell 2D'
-	CircuitName='2_Partial_Motor'
+	CircuitName='5_Partial_Motor_TR'
 	VersionID=37
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=40
+	NextUniqueID=42
 	MoveBackwards=false
 	$begin 'LinkedDataList'
 	$end 'LinkedDataList'
@@ -26,9 +26,9 @@ $begin 'BlockMapName'
 $end 'BlockMapName'
 $begin '$index$'
 	$begin '$index$'
-		BlockMapName(pos=631, lin=14, lvl=0)
+		BlockMapName(pos=634, lin=14, lvl=0)
 		SolutionBlock1(pos=370, lin=1, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=702, lin=17, lvl=0)
+		$index$(pos=705, lin=17, lvl=0)
 	$end '$index$'
 $end '$index$'
