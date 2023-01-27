@@ -1,0 +1,10 @@
+<ValidationInfo>
+  <DesignValid>false</DesignValid>
+  <IgnoreUnclassifiedObjects>false</IgnoreUnclassifiedObjects>
+  <SkipIntersectionChecks>false</SkipIntersectionChecks>
+  <EntityCheckLevel>Strict</EntityCheckLevel>
+  <ValidationLevel>Perform full validations</ValidationLevel>
+  <Messages>
+    <Message>[error] Ansys Electronics Desktop Student does not support Maxwell Transient solution.</Message>
+  </Messages>
+</ValidationInfo>

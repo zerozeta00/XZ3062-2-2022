@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='Imax=\'250A\' Omega=\'72000\' Omega_rad=\'1256.6370614359173\' PolePairs=\'4\' Poles=\'8\' Speed_rpm=\'3000\' Thet=\'0.3490658503988659\' Thet_deg=\'20\''
+		Status=false
+		FileName='VI2A971992816705939465.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

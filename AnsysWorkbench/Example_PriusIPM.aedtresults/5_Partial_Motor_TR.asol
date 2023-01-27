@@ -1,21 +1,24 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002022, month=000000000012, day=000000000007, hour=000000000017, min=000000000010, sec=000000000001)
+    time(year=000000002023, month=000000000001, day=000000000027, hour=000000000000, min=000000000037, sec=000000000025)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000000705, lin=000000000017, lvl=000000000000)
+    $index$(pos=000000001589, lin=000000000046, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
 $begin 'SolutionBlock1'
 	ProductName='Maxwell 2D'
 	CircuitName='5_Partial_Motor_TR'
-	VersionID=37
+	VersionID=66
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=42
+	NextUniqueID=119
 	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='Imax=\'250A\' Omega=\'72000\' Omega_rad=\'1256.6370614359173\' PolePairs=\'4\' Poles=\'8\' Speed_rpm=\'3000\' Thet=\'0.3490658503988659\' Thet_deg=\'20\'', ID=70)
+	$end 'VariationIDs'
 	$begin 'LinkedDataList'
 	$end 'LinkedDataList'
 	$begin 'MI'
@@ -23,12 +26,40 @@ $begin 'SolutionBlock1'
 $end 'SolutionBlock1'
 $begin 'BlockMapName'
 	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=68, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=68, Instance=\'SolutionDefinition\', Solution=69, VersionID=0)'='SolutionBlock2'
 $end 'BlockMapName'
+$begin 'SolutionBlock3'
+	SimSetupID=68
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=0
+	$begin 'Profiles'
+		P(VID=70, Ver=0, File='DV70_S68_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock2'
+	SolutionName='Transient'
+	SolutionID=69
+	V=0
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock2'
 $begin '$index$'
 	$begin '$index$'
-		BlockMapName(pos=634, lin=14, lvl=0)
+		BlockMapName(pos=851, lin=17, lvl=0)
+		SolutionBlock2(pos=1347, lin=33, lvl=0)
+		SolutionBlock3(pos=1127, lin=22, lvl=0)
 		SolutionBlock1(pos=370, lin=1, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=705, lin=17, lvl=0)
+		$index$(pos=1589, lin=46, lvl=0)
 	$end '$index$'
 $end '$index$'

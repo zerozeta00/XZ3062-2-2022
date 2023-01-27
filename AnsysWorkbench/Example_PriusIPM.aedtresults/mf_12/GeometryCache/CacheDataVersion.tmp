@@ -1,6 +1,13 @@
 $begin 'CacheDataVersion'
-	DataVersion=16
+	DataVersion=19
 $end 'CacheDataVersion'
 $begin 'VariableValues'
 	Poles='8'
+	PolePairs='Poles/2'
+	Speed_rpm='3000'
+	Omega='360*Speed_rpm*PolePairs/60'
+	Omega_rad='Omega*pi/180'
+	Thet_deg='20'
+	Thet='Thet_deg*pi/180'
+	Imax='250A'
 $end 'VariableValues'
