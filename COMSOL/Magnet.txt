@@ -1,0 +1,2 @@
+dirX -cos(centerPhi+if(atan2(Yg,Xg)<centerPhi,magnetPhi,-magnetPhi)) "Normalized x direction"
+dirY -sin(centerPhi+if(atan2(Yg,Xg)<centerPhi,magnetPhi,-magnetPhi)) "Normalized y direction"

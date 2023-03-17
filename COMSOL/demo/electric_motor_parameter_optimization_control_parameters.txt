@@ -1,0 +1,6 @@
+magnetSep 1.5*minIron "Magnet separation"
+airSep minIron "Distance to air"
+symSep minIron "Distance to symmetry line"
+magnetH L/100 "Magnet height"
+magnetPhi 15[deg] "Magnet angle"
+init_ang_e 220[deg] "Initial electrical angle"
